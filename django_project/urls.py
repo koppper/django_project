@@ -21,4 +21,6 @@ urlpatterns = [
     path('', include("product.urls")),
     path("news/", include("news.urls")),
     path('skylearn/', include("skylearn.urls")),
+    path('animals/', include("animals.urls"))
+
 ]
